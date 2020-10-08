@@ -14,6 +14,8 @@
 		5772BBDF252EACA200A15CC3 /* Recipe_book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5772BBDD252EACA200A15CC3 /* Recipe_book.xcdatamodeld */; };
 		5772BBE1252EACA200A15CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5772BBE0252EACA200A15CC3 /* Assets.xcassets */; };
 		5772BBE4252EACA200A15CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5772BBE2252EACA200A15CC3 /* LaunchScreen.storyboard */; };
+		5772BBEC252EAE3300A15CC3 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 5772BBEB252EAE3300A15CC3 /* Group.png */; };
+		5772BBF0252EAEB900A15CC3 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772BBEF252EAEB900A15CC3 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5772BBE0252EACA200A15CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5772BBE3252EACA200A15CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5772BBE5252EACA200A15CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5772BBEB252EAE3300A15CC3 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Group.png; path = ../../../Group.png; sourceTree = "<group>"; };
+		5772BBEF252EAEB900A15CC3 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 		5772BBD3252EACA200A15CC3 /* Recipe book */ = {
 			isa = PBXGroup;
 			children = (
+				5772BBEB252EAE3300A15CC3 /* Group.png */,
 				5772BBD4252EACA200A15CC3 /* AppDelegate.swift */,
+				5772BBEF252EAEB900A15CC3 /* DetailsVC.swift */,
 				5772BBD6252EACA200A15CC3 /* SceneDelegate.swift */,
 				5772BBD8252EACA200A15CC3 /* ViewController.swift */,
 				5772BBDA252EACA200A15CC3 /* Main.storyboard */,
@@ -128,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5772BBE4252EACA200A15CC3 /* LaunchScreen.storyboard in Resources */,
+				5772BBEC252EAE3300A15CC3 /* Group.png in Resources */,
 				5772BBE1252EACA200A15CC3 /* Assets.xcassets in Resources */,
 				5772BBDC252EACA200A15CC3 /* Main.storyboard in Resources */,
 			);
@@ -144,6 +151,7 @@
 				5772BBD5252EACA200A15CC3 /* AppDelegate.swift in Sources */,
 				5772BBDF252EACA200A15CC3 /* Recipe_book.xcdatamodeld in Sources */,
 				5772BBD7252EACA200A15CC3 /* SceneDelegate.swift in Sources */,
+				5772BBF0252EAEB900A15CC3 /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
